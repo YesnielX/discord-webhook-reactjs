@@ -1,0 +1,10 @@
+/* your css code */
+
+.fade {
+    transition: all 0.4s;
+}
+
+.show {
+    position: relative;
+    transition: all 0.9s;
+}

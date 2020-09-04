@@ -1,0 +1,45 @@
+[type="color"] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 30px;
+}
+
+[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+[type="color"]::-webkit-color-swatch {
+  border: none;
+}
+
+.color-picker {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  width: 134px;
+  height: 50px;
+}
+
+.circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    margin-right: 10px;
+  }
+
+.hidden {
+  opacity: 0;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  transition: all 3s;
+}
